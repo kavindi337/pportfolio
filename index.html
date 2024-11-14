@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f3b42deed7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+<div id="header"
+class ="container">
+    <nav>
+    <ul id="sidemenu">
+        <li><a href ="#header">Home</a></li>
+        <li><a href ="#About">About</a></li>
+        <li><a href ="#portfolio">Portfolio</a></li>
+        <li><a href ="#contact">Contact</a></li>
+        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+    </ul>
+
+    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+
+
+</nav>
+<div class="text-box">
+    <h1>I'M</h1>
+    <h3>Kaumadi</h3>
+    <h5>This is my personal portfolio website</h5>
+
+    <div class="row">
+        <a href="">&#8275; Explore My Portfolio &#8275;</a>
+    <a href="">&#8275; Connect with me &#8275; </a>
+    </div>
+    <div class="social-icons">
+        <img src ="Images/new1.jpg"></a>
+        <img src = "Images/new2.jpg"></a>
+        <img src = "Images/new3.jpg"></a>
+      
+    
+    </div>
+
+   
+    
+
+</div>
+    
+    
+</div>
+<!-----------about----------------------------->
+<div id="About">
+    <div class="container">
+        <div class="row">
+            <div class="About-col-1">
+                <img src="Images/pic7.jpg" alt="">
+            </div>
+            <div class="About-col-2">
+                <h1 class = "sub-title">About Me</h1>
+                <p>"My name is Kavindi,
+                    and I’m a cybersecurity student with a keen interest in programming, data analysis, and technology.
+                    I’m currently studying at SLTC Research University, where I am learning the principles and practices of cybersecurity."</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Design and interactivity</li>
+                            <li><span>Web Development</span><br>HTML,CSS,Javascript,responsive Design</li>
+                            <li><span>App Development</span><br>Proficiency in programming languages APIs and testing</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2024 - current</span><br>"I currently have no work experience and am focused on academic projects."</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024 - current</span><br>"Currently working towards a degree in cyber security."</li>
+                        </ul>
+                    </div>
+                
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!------------------services------------------>
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i> <i class="fa-solid fa-gear"></i>
+                <h2>Basic Website Development</h2>
+                <p>"Create simple, responsive websites using HTML and CSS for small businesses, student projects, or personal blogs."</p>
+                   <a href="#">Learn more</a>
+            </div>  
+            <div>
+                <i class="fa-solid fa-pen-to-square"></i>
+                <h2>Photography & Editing</h2>
+                <p>"Offer photography sessions or photo editing services, specializing in nature and wildlife photography."</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-sharp fa-regular fa-thumbs-up"></i>
+                <h2>Content Creation for Social Media</h2>
+                <p>"Design and create visuals, captions, and simple graphic content for social media platforms."</p>
+                   <a href="#">Learn more</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!----------Portfolio----->
+<div id ="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Images/m1.jpg">
+                <div class="layer">
+                    <h3> UI/UX Design Project</h3>
+                    <p>Designed a social media app interface that connects talented people worldwide. Focused on seamless navigation and engaging user experience. Available on the Play Store.</p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/m4.jpg">
+                <div class="layer">
+                    <h3> Cybersecurity Awareness Campaign</h3>
+                    <p> Led a campaign to boost online safety awareness among university students. Created impactful visuals and tips to promote secure practices across social media.</p>
+                    <a href="#"><i class="fa-solid fa-lock"></i></a>
+                    
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/m2.jpg">
+                <div class="layer">
+                    <h3>Photography Portfolio</h3>
+                    <p>Showcasing a collection of nature and wildlife photography, edited to bring out vivid details and storytelling. Curated for enthusiasts and professionals alike.</p>
+                    <a href="#"><i class="fa-solid fa-icons"></i></a>
+                    
+                </div>
+            </div>
+        </div>
+        <a href="#"class="btn">See more</a>
+    </div>
+</div>
+
+<!----------------contact------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title"> Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>Kavi@gmail.com</p>
+                <p><i class="fa-solid fa-user"></i>0723507659</p>
+                <div class="socialicons">
+                    <a hresf=""><i class="fa-brands fa-facebook"></i></a>
+                    <a hresf=""><i class="fa-brands fa-square-instagram"></i></a>
+                    <a hresf=""><i class="fa-solid fa-envelope"></i></a>
+                    <a hresf=""><i class="fa-brands fa-linkedin"></i></a> 
+                </div>
+                <a href="" class="btn btn2">Download Cv</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet"> 
+                   <input type="text" name="Name" placeholder="Your Name" required>
+                   <input type="email" name="email" placeholder="Your Email" required>
+                   <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                   <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright  kavindi. Made with<i class="fa-solid fa-heart"></i>Easy Tutorial</p>
+    </div>
+</div>
+
+
+
+<script>
+
+ var tablinks = document.getElementsByClassName("tab-links");
+ var tabcontents = document.getElementsByClassName("tab-contents");
+ 
+ function opentab(tabname){
+     for (tablink of tablinks){
+          tablink.classList.remove("active-link");
+     }
+     for (tabcontent of tabcontents){
+          tabcontent.classList.remove("active-tab");
+     }
+     event.currentTarget.classList.add("active-link");
+     document.getElementById(tabname).classList.add("active-tab")
+ }
+
+</script>
+
+
+<script>
+    var sidemenu =document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right="0"; 
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px"; 
+    }
+</script>
+<script>
+    const scriptURL = '<https://script.google.com/macros/s/AKfycbwG07F1xi8i7Lr8wQ4BKDa7wfNOGwPRKGdwWNRV6meGacQQH5_TAjuudMQH34UxQbmHpw/exec>'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML =""
+            },5000)
+            form.reset
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+
+</body>
+</html> 
